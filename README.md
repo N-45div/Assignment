@@ -30,12 +30,20 @@ A full-stack web application that analyzes dental X-rays using AI-powered pathol
 
 ### Code setup (locally)
 ```
-git clone
+bash
+git clone https://github.com/N-45div/Assignment.git
+cd Assignment
+```
+### Docker build
+
+```
+docker-compose up --build
 ```
 
 ### Create Virtual Environment
 
 ```
+bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
@@ -46,12 +54,3 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pytest test_main.py --cov=main --cov-report=html -v
 ```
 ![image](https://github.com/user-attachments/assets/bc7b3db0-f84c-4502-a6d4-5bb32b15e242)
-
-### Docker build
-
-```
-docker-compose up --build
-```
-
-
-

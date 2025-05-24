@@ -14,7 +14,7 @@ A full-stack web application that analyzes dental X-rays using AI-powered pathol
 ## Architecture
 
 ### Backend (FastAPI)
-- **Framework**: FastAPI with Python 3.8+
+- **Framework**: FastAPI with Python 3.11.0
 - **AI Integration**: Roboflow API for object detection
 - **LLM**: Google Gemini for diagnostic reports
 - **Image Processing**: PIL for annotation and manipulation
@@ -27,7 +27,8 @@ A full-stack web application that analyzes dental X-rays using AI-powered pathol
 - **Responsive**: Mobile-friendly design
 
 ## Setup Instructions
-###Repo Cloning
+
+### Code setup (locally)
 ```
 git clone
 ```
@@ -39,7 +40,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-###Running backend tests 
+### Running backend tests 
 
 ```
 pytest test_main.py --cov=main --cov-report=html -v

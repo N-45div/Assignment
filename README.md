@@ -43,7 +43,6 @@ Working on linux
 sudo usermod -aG docker $USER
 newgrp docker
 docker ps
-
 ```
 
 ```

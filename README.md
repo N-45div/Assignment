@@ -29,11 +29,12 @@ A full-stack web application that analyzes dental X-rays using AI-powered pathol
 ## Setup Instructions
 
 ### Code setup (locally)
+
 ```
-bash
 git clone https://github.com/N-45div/Assignment.git
 cd Assignment
 ```
+
 ### Docker build
 
 ```

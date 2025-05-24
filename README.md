@@ -56,7 +56,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-### Running backend tests 
+### Running backend tests (Unit tests)
 
 ```
 pytest test_main.py --cov=main --cov-report=html -v
@@ -65,4 +65,5 @@ pytest test_main.py --cov=main --cov-report=html -v
 
 ### Demo video
 
+https://github.com/user-attachments/assets/c9ef928d-d085-4055-afc6-8665d67be565
 
